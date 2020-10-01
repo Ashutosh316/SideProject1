@@ -6,7 +6,7 @@ public class Email  {
 	private String password;
 	private String department;
 	private String email;
-	private int mailboxCapacity = 500;
+	private int mailBoxCapacity = 500;
 	private int defaultPasswordLength = 10;
 
 	private String companySuffix = "PlanBComp.com";
@@ -57,7 +57,7 @@ public class Email  {
 		
 		// Set the mailbox capacity
 		public void setMailBoxCapacity(int capacity) {
-			this.mailboxCapacity = capacity;
+			this.mailBoxCapacity = capacity;
 		}
 		
 
@@ -99,10 +99,10 @@ public class Email  {
 		this.department = department;
 	}
 	public int getMailboxCapacity() {
-		return mailboxCapacity;
+		return mailBoxCapacity;
 	}
-	public void setMailboxCapacity(int mailboxCapacity) {
-		this.mailboxCapacity = mailboxCapacity;
+	public void setMailboxCapacity(int mailBoxCapacity) {
+		this.mailBoxCapacity = mailBoxCapacity;
 	}
 	
 	
